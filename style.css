@@ -1,5 +1,6 @@
 body {
     /*background: blanchedalmond;*/
+    display:block;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
@@ -26,19 +27,23 @@ body {
 
 .top-link1, .top-link2 {
     /*background: rgb(255, 255, 159);*/
+    margin-right: 10px;
+    margin-left: 10x;
     font-family: 'Roboto', sans-serif;
-    color: rgba(88, 88, 88, 0.932);
-    width: 55px;
-    height: 40px;
+    fill: #5f6368;
+    width: 45px;
+    height: 30px;
     text-align: center;
     line-height: 40px;
 }
 
 #third-div img {
+    border-radius: 50%;
     padding: 2px;
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
 }
+
 
 #second-container {
     /*background-color: indigo;*/
@@ -118,6 +123,7 @@ a:hover {
 }
 
 #fourth-container {
+    position: fixed;
     background: #f2f2f2;
     position: absolute;
     bottom: 0;
@@ -158,17 +164,6 @@ a:hover {
     font-size: 15px;
     color: rgba(0,0,0,.54);
 }
-
-/*
-NOTES: 
-- add hover message over microphone
-- add grayscale one grid icon
-- see if you can find another grid icon
-- search bar should have a box shadow when hovering over it
-- search why everytime you refresh the icon images appear
-- odin has provide links to the icons --> CHANGE THEM
-    ref: https://fonts.google.com/icons
-*/
 
 
 
